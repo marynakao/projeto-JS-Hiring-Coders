@@ -1,0 +1,67 @@
+const livros  = [
+    {
+        id: 1,
+        nome: 'Toda Luz que não Podemos Ver',
+        autor: 'Anhony Doerr',
+        categoria: 'Romance',
+        paginas: 528,
+        recomenda: true,
+        leu: true,
+    },
+    {
+        id: 2,
+        nome: 'Fahreinheit 451',
+        autor: 'Ray Bradbury',
+        categoria: 'Distopia',
+        paginas: 216,
+        recomenda: true,
+        leu: true,
+    },
+    {
+        id: 3,
+        nome: 'Admirável Mundo Novo',
+        autor: 'Aldous Leonard Huxley',
+        categoria: 'Distopia',
+        paginas: 312,
+        recomenda: false,
+        leu: true,
+    },
+    {
+        id: 4,
+        nome: 'Os Três',
+        autor: 'Sarah Lotz',
+        categoria: 'Suspense',
+        paginas: 400,
+        recomenda: false,
+        leu: false,
+    },
+    {
+        id: 5,
+        nome: 'Confie em Mim',
+        autor: 'Harlan Coben',
+        categoria: 'Policial',
+        paginas: 320,
+        recomenda: true,
+        leu: true,
+    },
+    {
+        id: 6,
+        nome: 'Caixa de Pássaros',
+        autor: 'Josh Malerman',
+        categoria: 'Suspense',
+        paginas: 272,
+        recomenda: false,
+        leu: true,
+    },
+    {
+        id: 7,
+        nome: 'Simplesmente Acontece',
+        autor: 'Cecelia Ahrem',
+        categoria: 'Romance',
+        paginas: 448,
+        recomenda: false,
+        leu: true,
+    }
+]
+
+module.exports = livros
